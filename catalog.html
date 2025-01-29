@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>SportKulturMagazin</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <link rel="shortcut icon" href="img/fav.png" type="image/x-icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600&family=Roboto&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.0/build/css/intlTelInput.css"
+        />
+        <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.0/build/js/intlTelInput.min.js"></script>
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar start -->
+        <div class="container-fluid fixed-top px-0">
+            <div class="container px-0">
+                <nav class="navbar navbar-light bg-light navbar-expand-xl">
+                    <a href="index.html" class="navbar-brand ms-3">
+                        <h1 class="text-primary display-5">
+                            KunstSportKulturMagazin
+                        </h1>
+                    </a>
+                    <button
+                        class="navbar-toggler py-2 px-3 me-3"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse"
+                    >
+                        <span class="fa fa-bars text-primary"></span>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse bg-light"
+                        id="navbarCollapse"
+                    >
+                        <div class="navbar-nav ms-auto">
+                            <a href="index.html" class="nav-item nav-link"
+                                >Startseite</a
+                            >
+                            <a href="about.html" class="nav-item nav-link"
+                                >Über uns</a
+                            >
+
+                            <a
+                                href="catalog.html"
+                                class="nav-item nav-link active"
+                                >Katalog</a
+                            >
+
+                            <a href="contact.html" class="nav-item nav-link"
+                                >Kontakt</a
+                            >
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar End -->
+
+        <!-- Header Start -->
+        <div class="container-fluid bg-breadcrumb">
+            <div class="container text-center py-5" style="max-width: 900px">
+                <h3 class="text-white display-3 mb-4">Katalog</h3>
+                <ol class="breadcrumb justify-content-center mb-0">
+                    <li class="breadcrumb-item">
+                        <a href="index.html">Startseite</a>
+                    </li>
+                    <li class="breadcrumb-item active text-white">Katalog</li>
+                </ol>
+            </div>
+        </div>
+        <!-- Header End -->
+
+        <!-- Blog Start -->
+        <div class="container-fluid blog py-5 mb-5">
+            <div class="container py-5">
+                <div class="text-center mx-auto pb-5" style="max-width: 800px">
+                    <h5 class="text-uppercase text-primary">
+                        Aktuelle Nachrichten
+                    </h5>
+                    <h1 class="mb-0">
+                        Neuigkeiten und Updates aus der Kunst-, Sport- und
+                        Kulturszene
+                    </h1>
+                    <p>
+                        Bleiben Sie auf dem Laufenden mit den neuesten
+                        Nachrichten und Updates aus der Welt der Kunst, Kultur
+                        und Sport. Hier finden Sie Informationen zu aktuellen
+                        Projekten, Veranstaltungen und vielem mehr.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <!-- Start of News Card Block -->
+                    <div class="col-lg-4 col-xl-6">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img
+                                    src="img/blog-1.jpg"
+                                    class="img-fluid w-100"
+                                    alt=""
+                                />
+                                <div class="blog-info">
+                                    <span
+                                        ><i class="fa fa-clock"></i> Jan
+                                        10.2025</span
+                                    >
+                                    <div class="d-flex">
+                                        <span class="me-3"
+                                            >12 <i class="fa fa-heart"></i
+                                        ></span>
+                                        <a
+                                            href="contact.html"
+                                            class="text-white"
+                                            >0 <i class="fa fa-comment"></i
+                                        ></a>
+                                    </div>
+                                </div>
+                                <div class="search-icon">
+                                    <a
+                                        href="img/blog-1.jpg"
+                                        data-lightbox="Blog-1"
+                                        class="my-auto"
+                                    >
+                                        <i
+                                            class="fas fa-search-plus btn-primary text-white p-3"
+                                        ></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="text-dark border p-4">
+                                <h4 class="mb-4">Neue Ausstellung in Zürich</h4>
+                                <p class="mb-4">
+                                    Entdecken Sie unsere neueste
+                                    Kunstausstellung in Zürich und erleben Sie
+                                    beeindruckende Werke aus der Region.
+                                </p>
+                                <a href="contact.html" class="btn btn-primary"
+                                    >Mehr erfahren</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-xl-6">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img
+                                    src="img/blog-2.jpg"
+                                    class="img-fluid w-100"
+                                    alt=""
+                                />
+                                <div class="blog-info">
+                                    <span
+                                        ><i class="fa fa-clock"></i> Jan
+                                        05.2025</span
+                                    >
+                                    <div class="d-flex">
+                                        <span class="me-3"
+                                            >123 <i class="fa fa-heart"></i
+                                        ></span>
+                                        <a
+                                            href="contact.html"
+                                            class="text-white"
+                                            >10 <i class="fa fa-comment"></i
+                                        ></a>
+                                    </div>
+                                </div>
+                                <div class="search-icon">
+                                    <a
+                                        href="img/blog-2.jpg"
+                                        data-lightbox="Blog-2"
+                                        class="my-auto"
+                                    >
+                                        <i
+                                            class="fas fa-search-plus btn-primary text-white p-3"
+                                        ></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="text-dark border p-4">
+                                <h4 class="mb-4">
+                                    Anerkennung für außergewöhnliche kulturelle
+                                    Beiträge
+                                </h4>
+                                <p class="mb-4">
+                                    Unsere Arbeit im Bereich der Kulturförderung
+                                    wurde kürzlich mit einer wichtigen
+                                    Auszeichnung gewürdigt.
+                                </p>
+                                <a href="contact.html" class="btn btn-primary"
+                                    >Mehr erfahren</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-xl-6">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img
+                                    src="img/blog-3.jpg"
+                                    class="img-fluid w-100"
+                                    alt=""
+                                />
+                                <div class="blog-info">
+                                    <span
+                                        ><i class="fa fa-clock"></i> Dez
+                                        22.2024</span
+                                    >
+                                    <div class="d-flex">
+                                        <span class="me-3"
+                                            >23 <i class="fa fa-heart"></i
+                                        ></span>
+                                        <a
+                                            href="contact.html"
+                                            class="text-white"
+                                            >12 <i class="fa fa-comment"></i
+                                        ></a>
+                                    </div>
+                                </div>
+                                <div class="search-icon">
+                                    <a
+                                        href="img/blog-3.jpg"
+                                        data-lightbox="Blog-3"
+                                        class="my-auto"
+                                    >
+                                        <i
+                                            class="fas fa-search-plus btn-primary text-white p-3"
+                                        ></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="text-dark border p-4">
+                                <h4 class="mb-4">
+                                    Kulturelle Workshops für alle Altersgruppen
+                                </h4>
+                                <p class="mb-4">
+                                    Melden Sie sich für unseren nächsten
+                                    Workshop an und tauchen Sie in die
+                                    faszinierende Welt der Kultur ein.
+                                </p>
+                                <a href="contact.html" class="btn btn-primary"
+                                    >Mehr erfahren</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-xl-6">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img
+                                    src="img/blog-4.jpg"
+                                    class="img-fluid w-100"
+                                    alt=""
+                                />
+                                <div class="blog-info">
+                                    <span
+                                        ><i class="fa fa-clock"></i> Dez
+                                        15.2024</span
+                                    >
+                                    <div class="d-flex">
+                                        <span class="me-3"
+                                            >13 <i class="fa fa-heart"></i
+                                        ></span>
+                                        <a
+                                            href="contact.html"
+                                            class="text-white"
+                                            >0 <i class="fa fa-comment"></i
+                                        ></a>
+                                    </div>
+                                </div>
+                                <div class="search-icon">
+                                    <a
+                                        href="img/blog-4.jpg"
+                                        data-lightbox="Blog-4"
+                                        class="my-auto"
+                                    >
+                                        <i
+                                            class="fas fa-search-plus btn-primary text-white p-3"
+                                        ></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="text-dark border p-4">
+                                <h4 class="mb-4">
+                                    Veröffentlichung eines Kulturbuches
+                                </h4>
+                                <p class="mb-4">
+                                    Unser neuestes Buch über die kulturelle
+                                    Entwicklung in Deutschland wurde jetzt
+                                    veröffentlicht. Holen Sie sich Ihr Exemplar!
+                                </p>
+                                <a href="contact.html" class="btn btn-primary"
+                                    >Mehr erfahren</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-xl-6">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img
+                                    src="img/blog-5.jpg"
+                                    class="img-fluid w-100"
+                                    alt=""
+                                />
+                                <div class="blog-info">
+                                    <span
+                                        ><i class="fa fa-clock"></i> Nov
+                                        30.2024</span
+                                    >
+                                    <div class="d-flex">
+                                        <span class="me-3"
+                                            >50 <i class="fa fa-heart"></i
+                                        ></span>
+                                        <a
+                                            href="contact.html"
+                                            class="text-white"
+                                            >3 <i class="fa fa-comment"></i
+                                        ></a>
+                                    </div>
+                                </div>
+                                <div class="search-icon">
+                                    <a
+                                        href="img/blog-5.jpg"
+                                        data-lightbox="Blog-5"
+                                        class="my-auto"
+                                    >
+                                        <i
+                                            class="fas fa-search-plus btn-primary text-white p-3"
+                                        ></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="text-dark border p-4">
+                                <h4 class="mb-4">
+                                    Kunstpreis für junge Talente
+                                </h4>
+                                <p class="mb-4">
+                                    Ein neuer Kunstpreis wurde ins Leben
+                                    gerufen, um junge, aufstrebende Künstler zu
+                                    fördern.
+                                </p>
+                                <a href="contact.html" class="btn btn-primary"
+                                    >Mehr erfahren</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-xl-6">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img
+                                    src="img/blog-6.jpg"
+                                    class="img-fluid w-100"
+                                    alt=""
+                                />
+                                <div class="blog-info">
+                                    <span
+                                        ><i class="fa fa-clock"></i> Nov
+                                        15.2024</span
+                                    >
+                                    <div class="d-flex">
+                                        <span class="me-3"
+                                            >76 <i class="fa fa-heart"></i
+                                        ></span>
+                                        <a
+                                            href="contact.html"
+                                            class="text-white"
+                                            >5 <i class="fa fa-comment"></i
+                                        ></a>
+                                    </div>
+                                </div>
+                                <div class="search-icon">
+                                    <a
+                                        href="img/blog-6.jpg"
+                                        data-lightbox="Blog-6"
+                                        class="my-auto"
+                                    >
+                                        <i
+                                            class="fas fa-search-plus btn-primary text-white p-3"
+                                        ></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="text-dark border p-4">
+                                <h4 class="mb-4">Kunst im öffentlichen Raum</h4>
+                                <p class="mb-4">
+                                    In einer neuen Initiative wird Kunst im
+                                    öffentlichen Raum präsentiert, um Kunst für
+                                    alle zugänglich zu machen.
+                                </p>
+                                <a href="contact.html" class="btn btn-primary"
+                                    >Mehr erfahren</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-xl-6">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img
+                                    src="img/blog-7.jpg"
+                                    class="img-fluid w-100"
+                                    alt=""
+                                />
+                                <div class="blog-info">
+                                    <span
+                                        ><i class="fa fa-clock"></i> Okt
+                                        25.2024</span
+                                    >
+                                    <div class="d-flex">
+                                        <span class="me-3"
+                                            >38 <i class="fa fa-heart"></i
+                                        ></span>
+                                        <a
+                                            href="contact.html"
+                                            class="text-white"
+                                            >7 <i class="fa fa-comment"></i
+                                        ></a>
+                                    </div>
+                                </div>
+                                <div class="search-icon">
+                                    <a
+                                        href="img/blog-7.jpg"
+                                        data-lightbox="Blog-7"
+                                        class="my-auto"
+                                    >
+                                        <i
+                                            class="fas fa-search-plus btn-primary text-white p-3"
+                                        ></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="text-dark border p-4">
+                                <h4 class="mb-4">
+                                    Sportliche Initiative für Kinder
+                                </h4>
+                                <p class="mb-4">
+                                    Ein neues sportliches Programm für Kinder
+                                    wurde ins Leben gerufen, um die körperliche
+                                    Aktivität zu fördern.
+                                </p>
+                                <a href="contact.html" class="btn btn-primary"
+                                    >Mehr erfahren</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-xl-6">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img
+                                    src="img/blog-8.jpg"
+                                    class="img-fluid w-100"
+                                    alt=""
+                                />
+                                <div class="blog-info">
+                                    <span
+                                        ><i class="fa fa-clock"></i> Okt
+                                        15.2024</span
+                                    >
+                                    <div class="d-flex">
+                                        <span class="me-3"
+                                            >20 <i class="fa fa-heart"></i
+                                        ></span>
+                                        <a
+                                            href="contact.html"
+                                            class="text-white"
+                                            >4 <i class="fa fa-comment"></i
+                                        ></a>
+                                    </div>
+                                </div>
+                                <div class="search-icon">
+                                    <a
+                                        href="img/blog-8.jpg"
+                                        data-lightbox="Blog-8"
+                                        class="my-auto"
+                                    >
+                                        <i
+                                            class="fas fa-search-plus btn-primary text-white p-3"
+                                        ></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="text-dark border p-4">
+                                <h4 class="mb-4">
+                                    Internationale Zusammenarbeit in der Kultur
+                                </h4>
+                                <p class="mb-4">
+                                    Wir sind stolz darauf, eine neue
+                                    Partnerschaft mit internationalen
+                                    Kulturorganisationen bekannt zu geben.
+                                </p>
+                                <a href="contact.html" class="btn btn-primary"
+                                    >Mehr erfahren</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-xl-6">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img
+                                    src="img/blog-9.jpg"
+                                    class="img-fluid w-100"
+                                    alt=""
+                                />
+                                <div class="blog-info">
+                                    <span
+                                        ><i class="fa fa-clock"></i> Sept
+                                        30.2024</span
+                                    >
+                                    <div class="d-flex">
+                                        <span class="me-3"
+                                            >50 <i class="fa fa-heart"></i
+                                        ></span>
+                                        <a
+                                            href="contact.html"
+                                            class="text-white"
+                                            >5 <i class="fa fa-comment"></i
+                                        ></a>
+                                    </div>
+                                </div>
+                                <div class="search-icon">
+                                    <a
+                                        href="img/blog-9.jpg"
+                                        data-lightbox="Blog-9"
+                                        class="my-auto"
+                                    >
+                                        <i
+                                            class="fas fa-search-plus btn-primary text-white p-3"
+                                        ></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="text-dark border p-4">
+                                <h4 class="mb-4">
+                                    Neue Sportinitiative für Frauen
+                                </h4>
+                                <p class="mb-4">
+                                    Wir haben ein neues Sportprogramm speziell
+                                    für Frauen ins Leben gerufen, um die
+                                    Teilnahme an Sportarten zu fördern.
+                                </p>
+                                <a href="contact.html" class="btn btn-primary"
+                                    >Mehr erfahren</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-xl-6">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img
+                                    src="img/blog-10.jpg"
+                                    class="img-fluid w-100"
+                                    alt=""
+                                />
+                                <div class="blog-info">
+                                    <span
+                                        ><i class="fa fa-clock"></i> Sept
+                                        10.2024</span
+                                    >
+                                    <div class="d-flex">
+                                        <span class="me-3"
+                                            >99 <i class="fa fa-heart"></i
+                                        ></span>
+                                        <a
+                                            href="contact.html"
+                                            class="text-white"
+                                            >8 <i class="fa fa-comment"></i
+                                        ></a>
+                                    </div>
+                                </div>
+                                <div class="search-icon">
+                                    <a
+                                        href="img/blog-10.jpg"
+                                        data-lightbox="Blog-10"
+                                        class="my-auto"
+                                    >
+                                        <i
+                                            class="fas fa-search-plus btn-primary text-white p-3"
+                                        ></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="text-dark border p-4">
+                                <h4 class="mb-4">
+                                    Öffentliche Kulturveranstaltung in Berlin
+                                </h4>
+                                <p class="mb-4">
+                                    Besuchen Sie unsere nächste öffentliche
+                                    Veranstaltung in Berlin, die Kunst und
+                                    Kultur für alle zugänglich macht.
+                                </p>
+                                <a href="contact.html" class="btn btn-primary"
+                                    >Mehr erfahren</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-xl-6">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img
+                                    src="img/blog-11.jpg"
+                                    class="img-fluid w-100"
+                                    alt=""
+                                />
+                                <div class="blog-info">
+                                    <span
+                                        ><i class="fa fa-clock"></i> Aug
+                                        25.2024</span
+                                    >
+                                    <div class="d-flex">
+                                        <span class="me-3"
+                                            >87 <i class="fa fa-heart"></i
+                                        ></span>
+                                        <a
+                                            href="contact.html"
+                                            class="text-white"
+                                            >6 <i class="fa fa-comment"></i
+                                        ></a>
+                                    </div>
+                                </div>
+                                <div class="search-icon">
+                                    <a
+                                        href="img/blog-11.jpg"
+                                        data-lightbox="Blog-11"
+                                        class="my-auto"
+                                    >
+                                        <i
+                                            class="fas fa-search-plus btn-primary text-white p-3"
+                                        ></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="text-dark border p-4">
+                                <h4 class="mb-4">Filmfestival in der Stadt</h4>
+                                <p class="mb-4">
+                                    Das Filmfestival in unserer Stadt zieht
+                                    jedes Jahr Tausende von Kunstliebhabern und
+                                    Filmliebhabern an.
+                                </p>
+                                <a href="contact.html" class="btn btn-primary"
+                                    >Mehr erfahren</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-xl-6">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img
+                                    src="img/blog-12.jpg"
+                                    class="img-fluid w-100"
+                                    alt=""
+                                />
+                                <div class="blog-info">
+                                    <span
+                                        ><i class="fa fa-clock"></i> Aug
+                                        10.2024</span
+                                    >
+                                    <div class="d-flex">
+                                        <span class="me-3"
+                                            >90 <i class="fa fa-heart"></i
+                                        ></span>
+                                        <a
+                                            href="contact.html"
+                                            class="text-white"
+                                            >10 <i class="fa fa-comment"></i
+                                        ></a>
+                                    </div>
+                                </div>
+                                <div class="search-icon">
+                                    <a
+                                        href="img/blog-12.jpg"
+                                        data-lightbox="Blog-12"
+                                        class="my-auto"
+                                    >
+                                        <i
+                                            class="fas fa-search-plus btn-primary text-white p-3"
+                                        ></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="text-dark border p-4">
+                                <h4 class="mb-4">Kunstgalerie im Zentrum</h4>
+                                <p class="mb-4">
+                                    Unsere Kunstgalerie im Stadtzentrum zeigt
+                                    Werke vieler internationaler Künstler.
+                                    Besuchen Sie uns!
+                                </p>
+                                <a href="contact.html" class="btn btn-primary"
+                                    >Mehr erfahren</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of News Card Block -->
+                </div>
+            </div>
+        </div>
+        <!-- Blog End -->
+
+        <!-- Footer Start -->
+        <div class="container-fluid footer bg-dark text-body py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item">
+                            <h4 class="mb-4 text-white">SportKulturMagazin</h4>
+                            <p class="mb-4">
+                                Willkommen auf Ihrer Quelle für aktuelle
+                                Nachrichten und Einblicke in Sport, Kunst und
+                                Kultur. Wir bieten Ihnen spannende Artikel,
+                                exklusive Interviews und vieles mehr aus der
+                                Welt der Kultur, des Sports und der Kunst.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="mb-4 text-white">Kontakt</h4>
+                            <a href=""
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Engehaldenstrasse 128, 3012 Bern, Switzerland</a
+                            >
+                            <a href=""
+                                ><i class="fas fa-angle-right me-2"></i>
+                                +41313018828</a
+                            >
+                            <a href=""
+                                ><i class="fas fa-angle-right me-2"></i>
+                                sport_kultur_magazin@gmail.com</a
+                            >
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="mb-4 text-white">Nützliche Links</h4>
+                            <a href="index.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Startseite</a
+                            >
+                            <a href="about.html"
+                                ><i class="fas fa-angle-right me-2"></i> Über
+                                uns</a
+                            >
+                            <a href="privacy-policy.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Datenschutz</a
+                            >
+                            <a href="terms-of-use.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Begriffe</a
+                            >
+                            <a href="business-model.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Business-Modell</a
+                            >
+                            <a href="cookie-policy.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Cookie-Richtlinie</a
+                            >
+                            <a href="disclaimer.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Disclaimer</a
+                            >
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item">
+                            <h4 class="mb-4 text-white">Our Gallery</h4>
+                            <div class="row g-2">
+                                <div class="col-4">
+                                    <div class="footer-gallery">
+                                        <img
+                                            src="img/gallery-footer-1.jpg"
+                                            class="img-fluid w-100"
+                                            alt=""
+                                        />
+                                        <div class="footer-search-icon">
+                                            <a
+                                                href="img/gallery-footer-1.jpg"
+                                                data-lightbox="footerGallery-1"
+                                                class="my-auto"
+                                                ><i
+                                                    class="fas fa-search-plus text-white"
+                                                ></i
+                                            ></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="footer-gallery">
+                                        <img
+                                            src="img/gallery-footer-2.jpg"
+                                            class="img-fluid w-100"
+                                            alt=""
+                                        />
+                                        <div class="footer-search-icon">
+                                            <a
+                                                href="img/gallery-footer-2.jpg"
+                                                data-lightbox="footerGallery-2"
+                                                class="my-auto"
+                                                ><i
+                                                    class="fas fa-search-plus text-white"
+                                                ></i
+                                            ></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="footer-gallery">
+                                        <img
+                                            src="img/gallery-footer-3.jpg"
+                                            class="img-fluid w-100"
+                                            alt=""
+                                        />
+                                        <div class="footer-search-icon">
+                                            <a
+                                                href="img/gallery-footer-3.jpg"
+                                                data-lightbox="footerGallery-3"
+                                                class="my-auto"
+                                                ><i
+                                                    class="fas fa-search-plus text-white"
+                                                ></i
+                                            ></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="footer-gallery">
+                                        <img
+                                            src="img/gallery-footer-4.jpg"
+                                            class="img-fluid w-100"
+                                            alt=""
+                                        />
+                                        <div class="footer-search-icon">
+                                            <a
+                                                href="img/gallery-footer-4.jpg"
+                                                data-lightbox="footerGallery-4"
+                                                class="my-auto"
+                                                ><i
+                                                    class="fas fa-search-plus text-white"
+                                                ></i
+                                            ></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="footer-gallery">
+                                        <img
+                                            src="img/gallery-footer-5.jpg"
+                                            class="img-fluid w-100"
+                                            alt=""
+                                        />
+                                        <div class="footer-search-icon">
+                                            <a
+                                                href="img/gallery-footer-5.jpg"
+                                                data-lightbox="footerGallery-5"
+                                                class="my-auto"
+                                                ><i
+                                                    class="fas fa-search-plus text-white"
+                                                ></i
+                                            ></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="footer-gallery">
+                                        <img
+                                            src="img/gallery-footer-6.jpg"
+                                            class="img-fluid w-100"
+                                            alt=""
+                                        />
+                                        <div class="footer-search-icon">
+                                            <a
+                                                href="img/gallery-footer-6.jpg"
+                                                data-lightbox="footerGallery-6"
+                                                class="my-auto"
+                                                ><i
+                                                    class="fas fa-search-plus text-white"
+                                                ></i
+                                            ></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Back to Top -->
+        <a
+            href="#"
+            class="btn btn-primary btn-primary-outline-0 btn-md-square back-to-top"
+            ><i class="fa fa-arrow-up"></i
+        ></a>
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Zustimmung zu Cookies</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Diese Website verwendet Cookies, um dir eine bessere
+                    Navigationserfahrung zu bieten und sich auf Nachrichten rund
+                    um Kunst, Sport und Kultur in Deutschland zu konzentrieren.
+                    <a href="privacy-policy.html">Datenschutzrichtlinie</a> |
+                    <a href="cookie-policy.html">Cookie-Richtlinie</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">
+                    Akzeptieren
+                </button>
+                <button class="cookie-button" id="declineBtn">Ablehnen</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>

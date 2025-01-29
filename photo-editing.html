@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>SportKulturMagazin</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <link rel="shortcut icon" href="img/fav.png" type="image/x-icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600&family=Roboto&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar start -->
+        <div class="container-fluid fixed-top px-0">
+            <div class="container px-0">
+                <nav class="navbar navbar-light bg-light navbar-expand-xl">
+                    <a href="index.html" class="navbar-brand ms-3">
+                        <h1 class="text-primary display-5">
+                            SportKulturMagazin
+                        </h1>
+                    </a>
+                    <button
+                        class="navbar-toggler py-2 px-3 me-3"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse"
+                    >
+                        <span class="fa fa-bars text-primary"></span>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse bg-light"
+                        id="navbarCollapse"
+                    >
+                        <div class="navbar-nav ms-auto">
+                            <a href="index.html" class="nav-item nav-link"
+                                >Startseite</a
+                            >
+                            <a href="about.html" class="nav-item nav-link"
+                                >Über uns</a
+                            >
+                            <a href="price.html" class="nav-item nav-link"
+                                >Preise</a
+                            >
+
+                            <div class="nav-item dropdown">
+                                <a
+                                    href="#"
+                                    class="nav-link dropdown-toggle active"
+                                    data-bs-toggle="dropdown"
+                                    >Seiten</a
+                                >
+                                <div
+                                    class="dropdown-menu m-0 bg-secondary rounded-0"
+                                >
+                                    <a
+                                        href="work-with-stars.html"
+                                        class="dropdown-item"
+                                        >Arbeit mit Stars</a
+                                    >
+                                    <a
+                                        href="photo-editing.html"
+                                        class="dropdown-item active"
+                                        >Fotobearbeitung</a
+                                    >
+                                </div>
+                            </div>
+                            <a href="passport.html" class="nav-item nav-link"
+                                >Passfotos</a
+                            >
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar End -->
+
+        <!-- Header Start -->
+        <div class="container-fluid bg-breadcrumb">
+            <div class="container text-center py-5" style="max-width: 900px">
+                <h3 class="text-white display-3 mb-4">Fotobearbeitung</h3>
+                <ol class="breadcrumb justify-content-center mb-0">
+                    <li class="breadcrumb-item">
+                        <a href="index.html">Startseite</a>
+                    </li>
+                    <li class="breadcrumb-item active text-white">
+                        Fotobearbeitung
+                    </li>
+                </ol>
+            </div>
+        </div>
+        <!-- Header End -->
+
+        <!-- Causes Start -->
+        <div class="container-fluid causes py-5">
+            <div class="container py-5">
+                <div class="text-center mx-auto pb-5" style="max-width: 800px">
+                    <h5 class="text-uppercase text-primary">Unsere Preise</h5>
+                    <h1 class="mb-4">
+                        Entdecken Sie unsere Fotografie-Dienstleistungen
+                    </h1>
+                    <p class="mb-0">
+                        Erfahren Sie mehr über unsere transparente
+                        Preisgestaltung für hochwertige
+                        Fotografie-Dienstleistungen in der Schweiz. Wir bieten
+                        maßgeschneiderte Pakete an, die Ihre Bedürfnisse und
+                        Budgets berücksichtigen.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-6 col-xl-3">
+                        <div class="causes-item">
+                            <div class="causes-img">
+                                <img
+                                    src="img/causes-4.jpg"
+                                    class="img-fluid w-100"
+                                    alt="Image"
+                                />
+                                <div class="causes-link pb-2 px-3">
+                                    <small class="text-white"
+                                        ><i
+                                            class="fa fa-thumbs-up text-primary me-2"
+                                        ></i
+                                        >Preis: $CHF 300</small
+                                    >
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div
+                                    class="progress-bar"
+                                    role="progressbar"
+                                    aria-valuenow="65"
+                                    aria-valuemin="0"
+                                    aria-valuemax="100"
+                                >
+                                    <span>65%</span>
+                                </div>
+                            </div>
+                            <div class="causes-content p-4">
+                                <h4 class="mb-3">Individuelles Fotoshooting</h4>
+                                <p class="mb-4">
+                                    Maßgeschneidertes Fotoshooting nach Ihren
+                                    Wünschen und Bedürfnissen. Perfekt für
+                                    Porträts, Familienfotos oder besondere
+                                    Anlässe.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-3">
+                        <div class="causes-item">
+                            <div class="causes-img">
+                                <img
+                                    src="img/causes-2.jpg"
+                                    class="img-fluid w-100"
+                                    alt="Image"
+                                />
+                                <div class="causes-link pb-2 px-3">
+                                    <small class="text-white"
+                                        ><i
+                                            class="fa fa-thumbs-up text-primary me-2"
+                                        ></i
+                                        >Preis: CHF 250</small
+                                    >
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div
+                                    class="progress-bar"
+                                    role="progressbar"
+                                    aria-valuenow="75"
+                                    aria-valuemin="0"
+                                    aria-valuemax="100"
+                                >
+                                    <span>75%</span>
+                                </div>
+                            </div>
+                            <div class="causes-content p-4">
+                                <h4 class="mb-3">Landschaftsfotografie</h4>
+                                <p class="mb-4">
+                                    Professionelle Aufnahmen der atemberaubenden
+                                    Schweizer Landschaft. Ideal für
+                                    Naturliebhaber und Reisende, die die
+                                    Schönheit der Natur festhalten möchten.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-3">
+                        <div class="causes-item">
+                            <div class="causes-img">
+                                <img
+                                    src="img/causes-3.jpg"
+                                    class="img-fluid w-100"
+                                    alt="Image"
+                                />
+                                <div class="causes-link pb-2 px-3">
+                                    <small class="text-white"
+                                        ><i
+                                            class="fa fa-thumbs-up text-primary me-2"
+                                        ></i
+                                        >Preis: CHF 600</small
+                                    >
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div
+                                    class="progress-bar"
+                                    role="progressbar"
+                                    aria-valuenow="85"
+                                    aria-valuemin="0"
+                                    aria-valuemax="100"
+                                >
+                                    <span>85%</span>
+                                </div>
+                            </div>
+                            <div class="causes-content p-4">
+                                <h4 class="mb-3">Eventfotografie</h4>
+                                <p class="mb-4">
+                                    Dokumentation besonderer Momente bei
+                                    Veranstaltungen aller Art. Von Hochzeiten
+                                    über Firmenfeiern bis hin zu privaten
+                                    Feiern.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-3">
+                        <div class="causes-item">
+                            <div class="causes-img">
+                                <img
+                                    src="img/causes-1.jpg"
+                                    class="img-fluid w-100"
+                                    alt="Image"
+                                />
+                                <div class="causes-link pb-2 px-3">
+                                    <small class="text-white"
+                                        ><i
+                                            class="fa fa-thumbs-up text-primary me-2"
+                                        ></i
+                                        >Preis: CHF 200</small
+                                    >
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div
+                                    class="progress-bar"
+                                    role="progressbar"
+                                    aria-valuenow="95"
+                                    aria-valuemin="0"
+                                    aria-valuemax="100"
+                                >
+                                    <span>95%</span>
+                                </div>
+                            </div>
+                            <div class="causes-content p-4">
+                                <h4 class="mb-3">Porträtfotografie</h4>
+                                <p class="mb-4">
+                                    Einzigartige Porträtaufnahmen, die Ihre
+                                    Persönlichkeit zum Ausdruck bringen. Perfekt
+                                    für professionelle Profile, persönliche
+                                    Erinnerungen oder künstlerische Projekte.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Causes End -->
+
+        <!-- About Start -->
+        <div class="container-fluid about py-5">
+            <div class="container py-5" style="row-gap: 30px">
+                <div class="row g-5">
+                    <div class="col-xl-5">
+                        <div class="h-100">
+                            <img
+                                src="img/editor-1.jpg"
+                                class="img-fluid w-100 h-100"
+                                alt="Image"
+                            />
+                        </div>
+                    </div>
+                    <div class="col-xl-7">
+                        <h1 class="mb-4">Professionelle Bildbearbeitung</h1>
+                        <p class="fs-5 mb-4">
+                            Unsere Experten bieten Ihnen professionelle
+                            Bildbearbeitung, um Ihre Fotos auf das nächste Level
+                            zu bringen. Wir korrigieren Farben, verbessern die
+                            Belichtung und entfernen unerwünschte Elemente, um
+                            sicherzustellen, dass jedes Bild perfekt ist.
+                        </p>
+                    </div>
+                </div>
+                <div
+                    class="row g-5"
+                    style="flex-direction: row-reverse; margin-top: 30px"
+                >
+                    <div class="col-xl-5">
+                        <div class="h-100">
+                            <img
+                                src="img/editor-2.jpg"
+                                class="img-fluid w-100 h-100"
+                                alt="Image"
+                            />
+                        </div>
+                    </div>
+                    <div class="col-xl-7">
+                        <h1 class="mb-4">Kreative Retusche</h1>
+                        <p class="fs-5 mb-4">
+                            Mit unserer kreativen Retusche verleihen wir Ihren
+                            Bildern das gewisse Etwas. Von Beauty-Retusche über
+                            Hintergrundänderungen bis hin zu speziellen Effekten
+                            – wir verwandeln Ihre Fotos in wahre Kunstwerke.
+                        </p>
+                    </div>
+                </div>
+                <div class="row g-5" style="margin-top: 30px">
+                    <div class="col-xl-5">
+                        <div class="h-100">
+                            <img
+                                src="img/editor-3.jpg"
+                                class="img-fluid w-100 h-100"
+                                alt="Image"
+                            />
+                        </div>
+                    </div>
+                    <div class="col-xl-7">
+                        <h1 class="mb-4">
+                            Schnelle und zuverlässige Lieferung
+                        </h1>
+                        <p class="fs-5 mb-4">
+                            Wir wissen, wie wichtig es ist, Ihre bearbeiteten
+                            Fotos schnell zu erhalten. Deshalb bieten wir eine
+                            schnelle und zuverlässige Bearbeitung, ohne dabei
+                            Kompromisse bei der Qualität einzugehen. Verlassen
+                            Sie sich auf uns für zeitgerechte und beeindruckende
+                            Ergebnisse.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Footer Start -->
+        <div class="container-fluid footer bg-dark text-body py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item">
+                            <h4 class="mb-4 text-white">SportKulturMagazin</h4>
+                            <p class="mb-4">
+                                Willkommen bei Ihrem professionellen Fotografen
+                                in der Schweiz. Mit einer Leidenschaft für
+                                Fotografie und einem Auge für Details bieten wir
+                                erstklassige Dienstleistungen in den Bereichen
+                                Hochzeitsfotografie, Porträtfotografie,
+                                Landschaftsfotografie und Eventfotografie.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="mb-4 text-white">Kontakt</h4>
+                            <a href=""
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Engehaldenstrasse 128, 3012 Bern, Switzerland</a
+                            >
+                            <a href=""
+                                ><i class="fas fa-angle-right me-2"></i>
+                                +41313018828</a
+                            >
+                            <a href=""
+                                ><i class="fas fa-angle-right me-2"></i>
+                                sport_kultur_magazin@gmail.com</a
+                            >
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="mb-4 text-white">Nützliche Links</h4>
+                            <a href="index.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Startseite</a
+                            >
+                            <a href="about.html"
+                                ><i class="fas fa-angle-right me-2"></i> Über
+                                uns</a
+                            >
+                            <a href="privacy-policy.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Datenschutz</a
+                            >
+                            <a href="terms-of-use.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Begriffe</a
+                            >
+                            <a href="business-model.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Business-Modell</a
+                            >
+                            <a href="cookie-policy.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Cookie-Richtlinie</a
+                            >
+                            <a href="disclaimer.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Disclaimer</a
+                            >
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item">
+                            <h4 class="mb-4 text-white">Our Gallery</h4>
+                            <div class="row g-2">
+                                <div class="col-4">
+                                    <div class="footer-gallery">
+                                        <img
+                                            src="img/gallery-footer-1.jpg"
+                                            class="img-fluid w-100"
+                                            alt=""
+                                        />
+                                        <div class="footer-search-icon">
+                                            <a
+                                                href="img/gallery-footer-1.jpg"
+                                                data-lightbox="footerGallery-1"
+                                                class="my-auto"
+                                                ><i
+                                                    class="fas fa-search-plus text-white"
+                                                ></i
+                                            ></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="footer-gallery">
+                                        <img
+                                            src="img/gallery-footer-2.jpg"
+                                            class="img-fluid w-100"
+                                            alt=""
+                                        />
+                                        <div class="footer-search-icon">
+                                            <a
+                                                href="img/gallery-footer-2.jpg"
+                                                data-lightbox="footerGallery-2"
+                                                class="my-auto"
+                                                ><i
+                                                    class="fas fa-search-plus text-white"
+                                                ></i
+                                            ></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="footer-gallery">
+                                        <img
+                                            src="img/gallery-footer-3.jpg"
+                                            class="img-fluid w-100"
+                                            alt=""
+                                        />
+                                        <div class="footer-search-icon">
+                                            <a
+                                                href="img/gallery-footer-3.jpg"
+                                                data-lightbox="footerGallery-3"
+                                                class="my-auto"
+                                                ><i
+                                                    class="fas fa-search-plus text-white"
+                                                ></i
+                                            ></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="footer-gallery">
+                                        <img
+                                            src="img/gallery-footer-4.jpg"
+                                            class="img-fluid w-100"
+                                            alt=""
+                                        />
+                                        <div class="footer-search-icon">
+                                            <a
+                                                href="img/gallery-footer-4.jpg"
+                                                data-lightbox="footerGallery-4"
+                                                class="my-auto"
+                                                ><i
+                                                    class="fas fa-search-plus text-white"
+                                                ></i
+                                            ></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="footer-gallery">
+                                        <img
+                                            src="img/gallery-footer-5.jpg"
+                                            class="img-fluid w-100"
+                                            alt=""
+                                        />
+                                        <div class="footer-search-icon">
+                                            <a
+                                                href="img/gallery-footer-5.jpg"
+                                                data-lightbox="footerGallery-5"
+                                                class="my-auto"
+                                                ><i
+                                                    class="fas fa-search-plus text-white"
+                                                ></i
+                                            ></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="footer-gallery">
+                                        <img
+                                            src="img/gallery-footer-6.jpg"
+                                            class="img-fluid w-100"
+                                            alt=""
+                                        />
+                                        <div class="footer-search-icon">
+                                            <a
+                                                href="img/gallery-footer-6.jpg"
+                                                data-lightbox="footerGallery-6"
+                                                class="my-auto"
+                                                ><i
+                                                    class="fas fa-search-plus text-white"
+                                                ></i
+                                            ></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright py-4">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <p>
+                        Haftungsausschluss: Die Informationen auf dieser Website
+                        sind nicht als Rechtsberatung gedacht und begründen kein
+                        Mandatsverhältnis. Die hier zur Verfügung gestellten
+                        Informationen, Dokumente oder Formulare dienen nur
+                        allgemeinen Informationszwecken und sollten nicht als
+                        Rechtsberatung angesehen werden. Die Gesetze ändern sich
+                        regelmäßig; daher kann es sein, dass die Informationen
+                        auf dieser Website nicht korrekt sind. Es ist unbedingt
+                        erforderlich, dass Sie sich rechtlich beraten lassen, um
+                        Ihre Rechte und Pflichten nach geltendem Recht und unter
+                        Berücksichtigung Ihrer besonderen Umstände zu
+                        bestimmen.olorlib can't be removed.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+
+        <!-- Back to Top -->
+        <a
+            href="#"
+            class="btn btn-primary btn-primary-outline-0 btn-md-square back-to-top"
+            ><i class="fa fa-arrow-up"></i
+        ></a>
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Cookie-Zustimmung</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Diese Website verwendet Cookies, um Ihnen ein besseres und
+                    besseres und relevanteres Surferlebnis auf der Website zu
+                    ermöglichen.
+                    <a href="#">Mehr erfahren...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">
+                    Akzeptieren
+                </button>
+                <button class="cookie-button" id="declineBtn">Rückgang</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/cookiebanner.js"></script>
+        <script src="js/contact-form.js"></script>
+    </body>
+</html>
